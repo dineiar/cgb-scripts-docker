@@ -1,0 +1,5 @@
+FROM node:14.17.0
+
+RUN npm update \
+    && npm install -g npm@7.15.0 \
+    && npm install -g cgb-scripts@1.23.1
